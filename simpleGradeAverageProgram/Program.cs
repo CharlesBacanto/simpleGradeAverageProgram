@@ -2,21 +2,20 @@
 {
     static void Main(string[] args)
     {
-        ////Fetching Grades to compute
-        //Console.WriteLine("Please enter 4 grades");
-        //float grade1 = Convert.ToSingle(Console.ReadLine());
-        //float grade2 = Convert.ToSingle(Console.ReadLine());
-        //float grade3 = Convert.ToSingle(Console.ReadLine());
-        //float grade4 = Convert.ToSingle(Console.ReadLine());
+        //Fetching Grades to compute
+        Console.WriteLine("Please enter 4 grades");
+        float grade1 = Convert.ToSingle(Console.ReadLine());
+        float grade2 = Convert.ToSingle(Console.ReadLine());
+        float grade3 = Convert.ToSingle(Console.ReadLine());
+        float grade4 = Convert.ToSingle(Console.ReadLine());
 
-        ////Printing out Grades
-        //Console.WriteLine("Input 1: " + grade1 + " Input 2: " + grade2 + " Input 3: " + grade3 + " Input 4: " + grade4);
+        //Printing out Grades
+        Console.WriteLine("Input 1: " + grade1 + " Input 2: " + grade2 + " Input 3: " + grade3 + " Input 4: " + grade4);
 
-        ////Arithmetic Computation
-        //float average = (grade1 + grade2 + grade3 + grade4) / 4;
+        //Arithmetic Computation
+        float average = (grade1 + grade2 + grade3 + grade4) / 4;
 
-
-        float average = Convert.ToSingle(Console.ReadLine());// For validation of conditional statement
+        //float average = Convert.ToSingle(Console.ReadLine());// For validation of conditional statement
 
         if (average > 100)
         {
